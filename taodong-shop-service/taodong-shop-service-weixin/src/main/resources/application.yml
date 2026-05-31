@@ -1,0 +1,59 @@
+###服务启动端口号
+server:
+  port: 8200
+###服务名称(服务注册到eureka名称)
+spring:
+
+  application:
+    name: taodong-shop-service-weixin
+  datasource:
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/taodong-weixin?characterEncoding=utf8&useSSL=false
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-idle: 100
+        min-idle: 1
+        max-active: 1000
+        max-wait: -1
+### 公众号默认回复消息
+taodong:
+  weixin:
+    registration:
+      code:
+        ###微信注册码消息
+        message:  您的注册码为:%s
+    ###默认提示消息
+    default:
+      registration:
+        code:
+          message: 我们已经收到您的消息,将有客服会及时回复您的!
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8100/eureka
+####swagger相关配置
+swagger:
+  base-package: com.ylw
+  title: 淘东电商项目-微信服务接口
+  description: 该项目“基于SpringCloud2.x构建微服务电商项目。
+  version: 1.1
+  terms-of-service-url: www.xxx.com
+  contact:
+    name: 杨林伟
+    email: xxxxxx@qq.com
+app:
+  appsecret: ylw888
+wx:
+  mp:
+    configs:
+      -   appId: wx2a6cc78591726f95
+          secret: bb422c78819d29f14834f5215e82e1c3
+          token: ylw666
+
+

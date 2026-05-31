@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ylw</groupId>
+		<artifactId>taodong-shop</artifactId>
+		<version>1.0-RELEASE</version>
+	</parent>
+	<artifactId>taodong-shop-basics</artifactId>
+
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>taodong-shop-basics-apollo-config-server</module>
+		<module>taodong-shop-basics-eureka</module>
+		<module>taodong-shop-basics-lcn</module>
+		<module>taodong-shop-basics-xxljob</module>
+		<module>taodong-shop-basics-zipkin</module>
+		<module>taodong-shop-basics-zuul</module>
+		<module>taodong-shop-basics-xxlsso-server</module>
+		<module>taodong-shop-basics-elk-kafka</module>
+	</modules>
+
+	<!-- 暂时禁用 Apollo 配置中心，使用本地配置文件 -->
+	<dependencies>
+		<!--<dependency>
+			<groupId>com.ctrip.framework.apollo</groupId>
+			<artifactId>apollo-client</artifactId>
+			<version>1.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ctrip.framework.apollo</groupId>
+			<artifactId>apollo-core</artifactId>
+			<version>1.9.0</version>
+		</dependency>-->
+	</dependencies>
+</project>

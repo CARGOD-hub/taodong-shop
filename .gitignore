@@ -1,0 +1,60 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Middleware data
+rabbitmq-data/
+redis/
+rabbitmq/
+erl_crash.dump
+
+# Installation files
+*.zip
+*.exe
+*.msi
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# Build files
+.gradle/
+build/
+
+# Environment files
+*.env
+*.properties.local
+
+# Target directories (keep source code only)
+*/target/
+**/target/
+
+# Log files in root
+xxl-job-executor-sample-springboot.log
+
+# Local configuration files (DO NOT COMMIT!)
+**/application-local.yml
+**/application-dev.yml
+**/application-prod.yml
+**/application.yml.bak
+**/application.yml.old
+**/application.yml.template
