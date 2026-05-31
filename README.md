@@ -6,9 +6,10 @@
 
 众所周知，目前主流的电商企业就是 “淘宝” 和 “京东” 了，跟个风，本电商项目叫 [《淘东电商项目》](https://blog.csdn.net/qq_20042935/category_9444667_2.html) ，项目采用目前主流的`SpringBoot + SpringCloud`来构建，实现一套完整的微服务解决方案。
 
-![登录界面](https://img-blog.csdnimg.cn/20200614120432705.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMDQyOTM1,size_16,color_FFFFFF,t_70)
+![登录界面](<img width="1286" height="650" alt="cd1c34fc00307af282c78701ec0d8720" src="https://github.com/user-attachments/assets/f21f13e0-63e2-4b67-b2da-903400be1cbb" />)
 
-![主页面](<img width="1268" height="712" alt="image" src="https://github.com/user-attachments/assets/49ce77df-4b44-4bef-8301-54dcb71dd4d7" />
+![主页面](<img width="1268" height="712" alt="d7bbe1d730cecd61936607a764107218" src="https://github.com/user-attachments/assets/d11efd93-e453-454e-afd8-0a87cc7d6abd" />）
+
 )
 ![AI页面](<img width="1875" height="946" alt="微信图片_20260531131854_78_2" src="https://github.com/user-attachments/assets/ed889f9d-c50e-42b1-8125-e18469f08498" />）
 
