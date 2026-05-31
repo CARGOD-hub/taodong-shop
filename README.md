@@ -1,17 +1,23 @@
-## 1. 项目介绍
+本人一介大三学生，因期末大作业与找实习需要项目，只好拿此练手，在百般波折后，终成。
 
-> Github地址：[https://github.com/ylw-github/taodong-shop](https://github.com/ylw-github/taodong-shop)
+## 1. 项目介绍
+> Github地址:[https://github.com/CARGOD-hub/taodong-shop/]
+> 原作者的Github地址：[https://github.com/ylw-github/taodong-shop](https://github.com/ylw-github/taodong-shop)
 
 众所周知，目前主流的电商企业就是 “淘宝” 和 “京东” 了，跟个风，本电商项目叫 [《淘东电商项目》](https://blog.csdn.net/qq_20042935/category_9444667_2.html) ，项目采用目前主流的`SpringBoot + SpringCloud`来构建，实现一套完整的微服务解决方案。
 
 ![登录界面](https://img-blog.csdnimg.cn/20200614120432705.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMDQyOTM1,size_16,color_FFFFFF,t_70)
 
-![主页面](https://img-blog.csdnimg.cn/20200614120403542.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMDQyOTM1,size_16,color_FFFFFF,t_70)
+![主页面](<img width="1268" height="712" alt="image" src="https://github.com/user-attachments/assets/49ce77df-4b44-4bef-8301-54dcb71dd4d7" />
+)
+![AI页面](<img width="1875" height="946" alt="微信图片_20260531131854_78_2" src="https://github.com/user-attachments/assets/ed889f9d-c50e-42b1-8125-e18469f08498" />）
+
 
 ## 2. 项目架构图
 ![项目架构图](https://img-blog.csdnimg.cn/20200614120506781.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMDQyOTM1,size_16,color_FFFFFF,t_70)
+
 ## 3. 环境需求
-由于本项目对环境的要求非常高
+本项目对环境的要求不高
 
 建议电脑配置：
 - 在CPU I5
@@ -53,64 +59,30 @@
 
 
 ## 5. 项目目录结构
-- l____ **taodong-shop-basics（分布式基础设施）**
-- l________ taodong-shop-basics-eureka（注册中心）
-- l________ taodong-shop-basics-apollo-config-server（分布式配置中心）
-- l________ taodong-shop-basics-elk-kafka（分布式日志采集系统）
-- l________ taodong-shop-basics-lcn（分布式事务解决框架）
-- l________ taodong-shop-basics-xxljob（分布式任务调度平台）
-- l________ taodong-shop-basics-xxlsso-server（分布式单点登录系统）
-- l________ taodong-shop-basics-zipkin（分布式调用链系统）
-- l________ taodong-shop-basics-zuul（网关）
-- l____ **taodong-shop-service-api（接口层）**
-- l________ taodong-shop-service-api-goods（商品服务接口）
-- l________ taodong-shop-service-api-member（会员服务接口）
-- l________ taodong-shop-service-api-order（订单服务接口）
-- l________ taodong-shop-service-api-pay（支付服务接口）
-- l________ taodong-shop-service-api-search（搜索服务接口）
-- l________ taodong-shop-service-api-spike（秒杀服务接口）
-- l________ taodong-shop-service-api-sso（单点登录服务接口）
-- l________ taodong-shop-service-api-weixin（微信服务接口）
-- l________ taodong-shop-service-api-integral（积分服务接口）
-- l________ taodong-shop-service-api-auth（OAuth授权验证服务接口）
-- l____ **taodong-shop-service（服务层）**
-- l________ taodong-shop-service-goods（商品服务）
-- l________ taodong-shop-service-member（会员服务）
-- l________ taodong-shop-service-order（订单服务）
-- l________ taodong-shop-service-pay（支付服务）
-- l________ taodong-shop-service-search（搜索服务）
-- l________ taodong-shop-service-spike（秒杀服务）
-- l________ taodong-shop-service-sso（单点登录服务）
-- l________ taodong-shop-service-weixin（微信服务）
-- l________ taodong-shop-service-integral（积分服务）
-- l________ taodong-shop-service-auth（OAuth授权验证服务）
-- **l____ taodong-shop-portal（门户）**
-- l________ taodong-shop-portal-cms（管理系统）
-- l________ taodong-shop-portal-search（搜索系统）
-- l________ taodong-shop-portal-spike（秒杀系统）
-- l________ taodong-shop-portal-sso（秒杀系统）
-- l________ taodong-shop-portal-web（门户系统）
-- l________ taodong-shop-portal-pay-web（支付系统）
-- **l____ taodong-shop-api-dto（DTO）**
-- l________ taodong-shop-api-item-dto（商户服务DTO）
-- l________ taodong-shop-api-member-dto（会员服务DTO）
-- l________ taodong-shop-api-order-dto（订单服务DTO）
-- l________ taodong-shop-api-pay-dto（支付服务DTO）
-- l________ taodong-shop-api-search-dto（搜索服务DTO）
-- l________ taodong-shop-api-spike-dto（秒杀服务DTO）
-- l________ taodong-shop-api-sso-dto（单点登录服务DTO）
-- l________ taodong-shop-api-weixin-dto（微信服务DTO）
-- **l____ taodong-shop-common（通用框架）**
-- l________ taodong-shop-common-core（核心工具类）
-- l________ taodong-shop-common-web-core（web核心工具类）
-- l________ taodong-shop-common-xxlsso-core（单点登录系统核心工具类）
-- **l____ taodong-shop-pay-plugin（支付插件）**
-- l________ taodong-shop-union-plugin（银联支付插件）
-- l________ taodong-shop-alipay-plugin（支付宝支付插件）
-
-
-
-## 6. 功能实现
+taodong-shop-master/
+├── taodong-shop-basics/          # 基础服务层
+│   ├── eureka                    # 服务注册中心
+│   ├── zuul                      # API网关
+│   └── xxlsso-server             # 单点登录
+├── taodong-shop-service/         # 业务服务层
+│   ├── member                    # 会员服务
+│   ├── weixin                    # 微信服务
+│   ├── auth                      # 认证服务
+│   ├── goods                     # 商品服务
+│   ├── pay                       # 支付服务
+│   ├── integral                  # 积分服务
+│   └── spike                     # 秒杀服务
+├── taodong-shop-service-api/     # API接口定义
+├── taodong-shop-portal/          # 门户层
+│   └── portal-web                # 前端门户
+├── taodong-shop-common/          # 公共组件
+│   ├── core                      # 核心工具类
+│   ├── web-core                  # Web工具
+│   └── xxlsso-core               # SSO核心
+├── taodong-shop-api-dto/         # 数据传输对象
+└── taodong-shop-job/             # 定时任务
+## 6.功能实现
+都啥时代了，环境配置交给AI，不过也可以看看原作者在本节的相关介绍
 ### 6.1 项目立项&基础设施搭建
 - [《淘东电商项目（01） - 需求讨论与技术选型》](https://blog.csdn.net/qq_20042935/article/details/104114076)
 - [《淘东电商项目（02） - 项目结构初定》](https://blog.csdn.net/qq_20042935/article/details/104122766)
@@ -204,3 +176,6 @@
 - [《淘东电商项目（76） -秒杀系统（完整代码实现）》](https://blog.csdn.net/qq_20042935/article/details/106348940)
 - [《淘东电商项目（77） -秒杀系统（小结）》](https://blog.csdn.net/qq_20042935/article/details/106354401)
 - [《淘东电商项目（78） -秒杀系统（服务保护）》](https://blog.csdn.net/qq_20042935/article/details/106355892)
+
+
+
