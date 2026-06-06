@@ -1,10 +1,12 @@
 本人一介大三学生，因期末大作业与找实习需要项目，只好拿此练手，在百般波折后，终成。
+由于校园防火墙的限制我更改了大部分配置同时还在原来的基础上进行完善并添加不少新模块。
 
 ## 1. 项目介绍
 > Github地址:[https://github.com/CARGOD-hub/taodong-shop/]
-> 原作者的Github地址：[https://github.com/ylw-github/taodong-shop](https://github.com/ylw-github/taodong-shop)
 
-众所周知，目前主流的电商企业就是 “淘宝” 和 “京东” 了，跟个风，本电商项目叫 [《淘东电商项目》](https://blog.csdn.net/qq_20042935/category_9444667_2.html) ，项目采用目前主流的`SpringBoot + SpringCloud`来构建，实现一套完整的微服务解决方案。
+本人一介大三学生，因期末大作业与找实习需要项目，只好拿此练手，在百般波折后，终成。
+由于校园防火墙的限制我更改了大部分配置同时还在原来的基础上进行完善并添加不少新模块。
+(https://blog.csdn.net/qq_20042935/category_9444667_2.html) ，项目采用目前主流的`SpringBoot + SpringCloud`来构建，实现一套完整的微服务解决方案。
 
 ![登录界面](<img width="1286" height="650" alt="cd1c34fc00307af282c78701ec0d8720" src="https://github.com/user-attachments/assets/f21f13e0-63e2-4b67-b2da-903400be1cbb" />)
 
